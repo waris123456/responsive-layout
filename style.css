@@ -1,0 +1,40 @@
+.container {
+    width: 100%;
+}
+
+.div1 {
+    width: 50%;
+    height: 200px;
+    float: left;
+    background-color: #131313;
+}
+
+.div1 p {
+    font-size: 20px;
+    color: white;
+}
+
+.div2 {
+    width: 50%;
+    height: 200px;
+    float: left;
+    background-color: blue;
+}
+
+.div2 img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 700px) {
+    .div1 p{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .div1,
+    .div2 {
+        width: 100%;
+    }
+}
